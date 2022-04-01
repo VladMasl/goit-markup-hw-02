@@ -1,6 +1,120 @@
+/* цвет основного текста rgba(117, 117, 117, 1) */
+/* вторичный цвет текста  rgba(33, 33, 33, 1);*/       
+/*цвет адресса rgba(255, 255, 255, 0.6)  */
+/* белый #FFFFFF  */
+/* акцент rgba(33, 150, 243, 1) */
+/* вторичный цвет фона rgba(47, 48, 58, 1) */
+/* цвет фона3 rgba(245, 244, 250, 1) */
+:root{
+  --primary-text-color: rgba(117, 117, 117, 1) ;
+  --title-text-color:rgba(33, 33, 33, 1);
+  --foorer-text-color:rgba(255, 255, 255, 0.6);
+  --accent-color: rgba(33, 150, 243, 1);
+  --primary-white-color: #ffffff;
+  --primary-button-color:rgba(245, 244, 250, 1);
+  }
+
+
+
+.list{
+  list-style:none;
+ }
+
+body{
+  background-color:var(--primary-white-color);
+  color:var(--primary-text-color); 
+  font-family:'Roboto',sans-serif  ;
+}
+              /* LOGO */
 .logo{
-    color: black;
+font-family:'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: black;
 }
-span{
-    color: blue;
+.web{
+  color:var(--accent-color);
 }
+
+              /* Site-nav */
+  .site-nav{
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+  }
+
+  .link{
+   color:var(--title-text-color);
+     }
+   .site-nav  :focus,
+   .site-nav  :hover{
+   color:var(--accent-color) ;
+ }
+ .site-nav .link.current{
+   color:var(--accent-color) ;
+ } 
+ .info{
+  font-weight: 500;
+  font-size: 14px;
+  line-height:1.14;
+  letter-spacing: 0.02em;
+   color:var(--primary-text-color) ;
+ }
+             /* Шапка */
+.header{
+  font-weight: 900;
+  font-size: 44px;
+  line-height:1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-man{
+  font-weight: 700;
+  font-size: 16px;
+  line-height:1.9;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.06em;
+ } 
+ 
+  
+  
+ 
+
+
+
+ .auth-nav :focus,
+ .auth-nav :hover{
+color: var(--accent-color) ;
+ }  
+ 
+ 
+.sektion-title{
+  color:var(--title-text-color) ;
+}
+/* button */
+.button{
+color: var(--title-text-color);
+background-color:var(--primary-button-color);
+}
+.button:focus,
+.button:hover{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button.primary{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);}
+  
+
+
+.button.secondary{
+  color:var(--title-text-color) ;
+  background-color:var(--foorer-text-color) ;
+}
+

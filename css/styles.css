@@ -11,6 +11,8 @@
   --foorer-text-color:rgba(255, 255, 255, 0.6);
   --accent-color: rgba(33, 150, 243, 1);
   --primary-white-color: #ffffff;
+  --footer-address-color:rgba(255, 255, 255, 1);
+  --primary-background-color:rgba(47, 48, 58, 1);
   --primary-button-color:rgba(245, 244, 250, 1);
   }
 
@@ -25,7 +27,7 @@ body{
   color:var(--primary-text-color); 
   font-family:'Roboto',sans-serif  ;
 }
-              /* LOGO */
+              /* логотип */
 .logo{
 font-family:'Raleway';
 font-style: normal;
@@ -39,7 +41,7 @@ color: black;
   color:var(--accent-color);
 }
 
-              /* Site-nav */
+              /*Навигацыя сайта */
   .site-nav{
  font-weight: 500;
  font-size: 14px;
@@ -50,6 +52,7 @@ color: black;
   .link{
    color:var(--title-text-color);
      }
+
    .site-nav  :focus,
    .site-nav  :hover{
    color:var(--accent-color) ;
@@ -57,14 +60,24 @@ color: black;
  .site-nav .link.current{
    color:var(--accent-color) ;
  } 
- .info{
+
+ .auth-nav :focus,
+ .auth-nav :hover{
+color: var(--accent-color) ;
+ }  
+
+ .info-nav {
   font-weight: 500;
   font-size: 14px;
   line-height:1.14;
   letter-spacing: 0.02em;
    color:var(--primary-text-color) ;
  }
-             /* Шапка */
+             /* Шапка (студия) */
+.heroes{
+ background-color:var(--primary-background-color);
+}
+             
 .header{
   font-weight: 900;
   font-size: 44px;
@@ -72,49 +85,124 @@ color: black;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color:var(--primary-white-color);
 }
 .button-man{
   font-weight: 700;
   font-size: 16px;
   line-height:1.9;
   display: flex;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
- } 
+} 
  
-  
-  
- 
-
-
-
- .auth-nav :focus,
- .auth-nav :hover{
-color: var(--accent-color) ;
- }  
- 
- 
-.sektion-title{
+ .sektion-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   color:var(--title-text-color) ;
 }
-/* button */
+ /* особенности Студия */
+ .special-title h3{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+ }
+  .section p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+  /* чем ми занимаемся */
+  .sektion h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    
+    letter-spacing: 0.03em; 
+  }
+ 
+/* наша команда */
+.employee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.2;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+  
+ /* Кнопки фильтр портфолио */
 .button{
-color: var(--title-text-color);
-background-color:var(--primary-button-color);
-}
-.button:focus,
-.button:hover{
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-.button.primary{
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);}
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color:var(--primary-button-color);
+  }
   
+  
+  .button:focus,
+  .button:hover{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+  .button.primary{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);}
+    
+  
+  
+  .button.secondary{
+    color:var(--title-text-color) ;
+    background-color:var(--foorer-text-color) ;
+  }
+  
+   
+    
+    /* ПОРТФОЛИО */
+  
+    .project-title{
+      font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+    }
+  .project p{
+    color:var(--primary-text-color)
+  }
+         /* футер */
+         footer{
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.7;
+          letter-spacing: 0.03em;
+          background-color: var(--primary-background-color);
+        }
+        footer .logo{
+          color: var(--primary-white-color);
+          }
+        .auth{
+          color:var(--footer-address-color)
+        }
+        .info,footer{
+          color:var(--foorer-text-color);
+        } 
+ 
 
 
-.button.secondary{
-  color:var(--title-text-color) ;
-  background-color:var(--foorer-text-color) ;
-}
+
+ 
+ 
+ 
+
 

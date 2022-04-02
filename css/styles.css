@@ -20,6 +20,10 @@
 
 .list{
   list-style:none;
+  
+ }
+ .dec-non{
+  text-decoration: none;
  }
 
 body{
@@ -31,6 +35,7 @@ body{
 .logo{
 font-family:'Raleway';
 font-style: normal;
+text-decoration: none;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
@@ -50,6 +55,7 @@ color: black;
   }
 
   .link{
+   text-decoration: none;
    color:var(--title-text-color);
      }
 
@@ -60,6 +66,7 @@ color: black;
  .site-nav .link.current{
    color:var(--accent-color) ;
  } 
+ 
 
  .auth-nav :focus,
  .auth-nav :hover{
@@ -67,6 +74,7 @@ color: var(--accent-color) ;
  }  
 
  .info-nav {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height:1.14;
@@ -97,7 +105,7 @@ color: var(--accent-color) ;
   letter-spacing: 0.06em;
 } 
  
- .sektion-title{
+ .section-title{
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -120,7 +128,7 @@ color: var(--accent-color) ;
     letter-spacing: 0.03em;
   }
   /* чем ми занимаемся */
-  .sektion h2{
+  .section h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
@@ -139,6 +147,7 @@ color: var(--accent-color) ;
   
  /* Кнопки фильтр портфолио */
 .button{
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -171,7 +180,7 @@ color: var(--accent-color) ;
     /* ПОРТФОЛИО */
   
     .project-title{
-      font-weight: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -189,14 +198,20 @@ color: var(--accent-color) ;
           background-color: var(--primary-background-color);
         }
         footer .logo{
+          text-decoration: none;
           color: var(--primary-white-color);
-          }
+          } 
+         
         .auth{
+          
+          text-decoration: none;
           color:var(--footer-address-color)
         }
         .info,footer{
           color:var(--foorer-text-color);
+          text-decoration: none;
         } 
+        
  
 
 

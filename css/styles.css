@@ -190,6 +190,10 @@ color: var(--accent-color) ;
     color:var(--primary-text-color)
   }
          /* футер */
+
+         #address{
+           font-style:normal;
+         }
          footer{
           font-weight: 400;
           font-size: 14px;

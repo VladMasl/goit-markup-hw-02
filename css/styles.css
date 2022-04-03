@@ -121,19 +121,20 @@ color: var(--accent-color) ;
   text-transform: uppercase;
   color: var(--title-text-color);
  }
-  .section p{
+  .benefits{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
   }
   /* чем ми занимаемся */
-  .section h2{
+  .section-work{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
     
-    letter-spacing: 0.03em; 
+    letter-spacing: 0.03em;
+    color: var(--title-text-color); 
   }
  
 /* наша команда */
@@ -144,6 +145,15 @@ color: var(--accent-color) ;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.speciality{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+}
+
+
   
  /* Кнопки фильтр портфолио */
 .button{
@@ -179,16 +189,23 @@ color: var(--accent-color) ;
     
     /* ПОРТФОЛИО */
   
-    .project-title{
+  .project-title{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
     }
-  .project p{
+  
+  
+  .description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
     color:var(--primary-text-color)
-  }
+ }
+ 
          /* футер */
 
          #address{
